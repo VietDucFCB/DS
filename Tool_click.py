@@ -50,6 +50,7 @@ button_server = WebDriverWait(driver, 10).until(
 button_server.click()
 sleep(3)
 
+
 button_reserve = WebDriverWait(driver, 10).until(
     EC.visibility_of_element_located((By.CLASS_NAME, 'header__btns-wraper__reward-btn'))
 )
