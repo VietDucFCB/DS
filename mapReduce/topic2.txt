@@ -1,0 +1,20 @@
+Description: Suppose you have a large dataset containing sales transactions of a company. Each transaction includes information such as product_id, year, and revenue. Your goal is to determine the year with the highest revenue for each product.
+
+Input Data
+The data is in the following format:
+
+product_id,year,revenue
+P1,2021,15000
+P2,2021,18000
+P1,2022,20000
+P3,2022,10000
+P1,2023,17000
+P2,2023,22000
+...
+
+Solution
+You will use MapReduce to perform the following steps:
+
+Map: Read each line of the data and emit a key-value pair, where the key is product_id and the value is a pair (year, revenue).
+
+Reduce: Group the key-value pairs by product_id and find the year with the highest revenue for each product.

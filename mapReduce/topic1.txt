@@ -1,0 +1,9 @@
+Problem: Calculate the frequency of word occurrences in a collection of text documents.
+
+Input Data
+Assume you have a collection of text documents, each containing a certain number of words.
+
+Solution
+Map: Read each word in the document and emit key-value pairs, where the key is the word and the value is 1.
+
+Reduce: Aggregate the values by key to calculate the total number of occurrences of each word.
