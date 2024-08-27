@@ -1,4 +1,4 @@
-Topic: House Price Prediction. The directory containing all files related to the project has been compressed into a zip file, which includes the following:
+Topic: House Price Prediction. The directory containing all files related to the project, which includes the following:
 
 1. data_crawled_batdongsan: Stores all text files after scraping raw data from each page on the website.
 2. codeCrawl.ipynb: A notebook containing the code used to scrape data from the website.
