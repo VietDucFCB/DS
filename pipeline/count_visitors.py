@@ -20,6 +20,7 @@ def get_time_and_ip(lines):
         times.append(parse_time(line[1]))
     return ips, times
 
+
 def parse_time(time_str):
     try:
         time_obj = datetime.strptime(time_str, '[%d/%b/%Y:%H:%M:%S %z]')
