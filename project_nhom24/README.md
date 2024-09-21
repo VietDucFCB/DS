@@ -9,5 +9,4 @@ Topic: House Price Prediction. The directory containing all files related to the
 7. final_report.ipynb: The main code file combined with the report.
 8. coordinates.csv: A file that stores the coordinates of districts.
 9. quan_huyen.geojson: A JSON file that stores the coordinates of the vertices of the polygons representing district boundaries.
-10. EDA_TEST_ON_RAW_DATA.html: The result file of EDA (Exploratory Data Analysis) on the raw dataset.
-11. EDA_TEST_ON_CLEANED_DATA.html: The result file of EDA on the cleaned dataset.
+
