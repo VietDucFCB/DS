@@ -5,7 +5,6 @@ class MRMaxRevenueYear(MRJob):
     def mapper(self, _, line):
         # Tách dòng thành các phần tử
         data = line.split(',')
-
         # Bỏ qua dòng đầu tiên nếu nó chứa tiêu đề
         if data[0] == 'product_id':
             return
