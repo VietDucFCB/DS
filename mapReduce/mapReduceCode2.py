@@ -6,6 +6,7 @@ class MRMaxRevenueYear(MRJob):
         # Tách dòng thành các phần tử
         data = line.split(',')
         # Bỏ qua dòng đầu tiên nếu nó chứa tiêu đề
+
         if data[0] == 'product_id':
             return
         if len(data) == 3:
