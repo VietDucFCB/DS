@@ -14,7 +14,6 @@ class MRMaxRevenueYear(MRJob):
                 # Phát ra cặp khóa-giá trị (product_id, (year, revenue))
                 yield (product_id, (year, revenue))
             except ValueError:
-                # Bỏ qua dòng nếu dữ liệu không hợp lệ
                 pass
 
     def reducer(self, key, values):
