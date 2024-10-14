@@ -24,6 +24,5 @@ class MRMaxRevenueYear(MRJob):
                 max_year, max_revenue = year, revenue
         # Phát ra cặp (product_id, (max_year, max_revenue))
         yield (key, (max_year, max_revenue))
-
 if __name__ == '__main__':
     MRMaxRevenueYear.run()
