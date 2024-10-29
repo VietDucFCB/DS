@@ -3,7 +3,7 @@ from mrjob.job import MRJob
 class MRMaxRevenueYear(MRJob):
 
     def mapper(self, _, line):
-        # Tách dòng thành các phần tử
+        # Tách dòng thành các phần t
         data = line.split(',')
 
         if data[0] == 'product_id':
