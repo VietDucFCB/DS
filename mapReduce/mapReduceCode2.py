@@ -16,7 +16,7 @@ class MRMaxRevenueYear(MRJob):
             except ValueError:
                 pass
     def reducer(self, key, values):
-        # Tìm năm có doanh thu cao nhất cho từng sản phẩm
+        # Tìm năm có doanh thu cao nhất cho từng sản phẩ
         max_year, max_revenue = None, 0
         for year, revenue in values:
             if revenue > max_revenue:
