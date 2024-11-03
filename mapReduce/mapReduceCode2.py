@@ -15,7 +15,6 @@ class MRMaxRevenueYear(MRJob):
                 yield (product_id, (year, revenue))
             except ValueError:
                 pass
-
     def reducer(self, key, values):
         # Tìm năm có doanh thu cao nhất cho từng sản phẩ
         max_year, max_revenue = None, 0
