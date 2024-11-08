@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f0366f3-832d-4342-b1f5-7198051086f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pipeline/DS2024_Lab02_Regression.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pipeline/DS2024_Lab03_PCA.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pipeline/count_visitors.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/count_visitors.py" afterDir="false" />
@@ -9981,6 +9982,9 @@
       <workItem from="1730299590496" duration="30000" />
       <workItem from="1730389093280" duration="51000" />
       <workItem from="1730556911364" duration="47000" />
+      <workItem from="1730641430327" duration="629000" />
+      <workItem from="1730674016890" duration="151000" />
+      <workItem from="1730707286468" duration="37000" />
     </task>
     <servers />
   </component>
